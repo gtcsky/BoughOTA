@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/size_dp_250"
+    android:layout_height="wrap_content"
+    android:background="@color/color_2b2b2b"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:layout_marginTop="@dimen/size_dp_10"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_dp_3"
+            android:text="@string/send_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/hex_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_dp_60"
+            android:text="Hex"
+            android:textColor="@color/white" />
+
+        <ToggleButton
+            android:id="@+id/hex_status"
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="@dimen/size_dp_25"
+            android:layout_marginLeft="@dimen/size_dp_10"
+            android:background="@drawable/toggle_drawable_selector"
+            android:textOff="@null"
+            android:textOn="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:layout_marginTop="@dimen/size_dp_10"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/message_txt"
+            android:layout_width="@dimen/size_dp_210"
+            android:layout_height="@dimen/size_dp_150"
+            android:background="@color/color_676769"
+            android:textColor="@color/white"
+            android:gravity="start"
+            >
+        </EditText>
+        <LinearLayout
+            android:id="@+id/nofity_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size_dp_10"
+            android:visibility="gone"
+            >
+            <TextView
+                android:id="@+id/notify_title"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Notify"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/notify_hex_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_dp_60"
+                android:text="Hex"
+                android:textColor="@color/white" />
+
+            <ToggleButton
+                android:id="@+id/notify_hex_status"
+                android:layout_width="@dimen/size_dp_50"
+                android:layout_height="@dimen/size_dp_25"
+                android:layout_marginLeft="@dimen/size_dp_10"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/toggle_drawable_selector"
+                android:textOff="@null"
+                android:textOn="@null" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/notity_txt"
+            android:layout_marginTop="@dimen/size_dp_5"
+            android:layout_width="@dimen/size_dp_210"
+            android:layout_height="@dimen/size_dp_80"
+            android:background="@color/color_676769"
+            android:textColor="@color/white"
+            android:gravity="start"
+            android:visibility="gone">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:layout_marginTop="@dimen/size_dp_10"
+        android:layout_marginBottom="@dimen/size_dp_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/close_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_close"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/write_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_dp_100"
+            android:text="@string/content_write"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/clear_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_dp_20"
+            android:text="@string/content_clear"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

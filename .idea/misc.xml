@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/drawable/toggle_drawable_selector.xml" value="0.1515625" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/drawable/toggle_effect_mode.xml" value="0.15572916666666667" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/drawable/toggle_power_switch.xml" value="0.18020833333333333" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/activity_device_info.xml" value="0.1431159420289855" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/activity_led_new.xml" value="0.11220871327254306" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/activity_main.xml" value="0.15208333333333332" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/activity_ota.xml" value="0.1" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/activity_update_setting.xml" value="0.4" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/activity_user_internet_ota.xml" value="0.1765625" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/activity_user_ota.xml" value="0.21979166666666666" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/anim_pop.xml" value="0.13645833333333332" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/content_device_info.xml" value="0.16354166666666667" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/content_user_ota.xml" value="0.1390625" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/fragment_bg5xx_color.xml" value="0.1" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/fragment_bg5xx_effect.xml" value="0.1" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/fragment_bg5xx_test.xml" value="0.1" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/fragment_download.xml" value="0.1431159420289855" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/fragment_hsi.xml" value="0.1" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/fragment_upload.xml" value="0.6" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/item_characteristic_list.xml" value="0.264" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/item_device_list.xml" value="0.10891590678824721" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/item_file_list.xml" value="0.10688956433637285" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/item_ota_file.xml" value="0.1890625" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/item_service_list.xml" value="0.1431159420289855" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/layout/menu_pop.xml" value="0.13645833333333332" />
+        <entry key="..\:/android workspace/Bough OTA/app/src/main/res/menu/menu_delete.xml" value="0.15416666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="Kotlin2JsCompilerArguments">
+    <option name="sourceMapEmbedSources" />
+    <option name="sourceMapPrefix" />
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="6" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="14" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

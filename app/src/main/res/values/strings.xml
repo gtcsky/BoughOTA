@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Bough OTA</string>
+    <string name="main_title">Bough OTA</string>
+    <string name="connect_device">连&#160;接</string>
+    <string name="disconnect_device">断&#160;开</string>
+    <string name="device_manager">连接管理</string>
+    <string name="file_delete">删&#160;除</string>
+
+    <string name="connected_device">当前设备：%s</string>
+    <string name="unconnected_device">当前设备：未连接</string>
+    <string name="battery_status">电池状态：%s</string>
+    <string name="unconnected_battery_status">电池状态：无</string>
+    <string name="app_version">App版本：%s</string>
+    <string name="app_bootload_version">App版本：%1$s&#160;&#160;&#160;&#160;BootLoad版本：%2$s</string>
+    <string name="app_ota_bootload_version">App版本：%s&#160;&#160;&#160;&#160;OTA模式</string>
+
+    <string name="search_title">连接管理</string>
+    <string name="device_search_fail">未搜索到设备,请重新搜索</string>
+    <string name="label_bluetooth_closed">蓝牙未开启</string>
+    <string name="label_location_tips">请允许应用获取地理位置</string>
+    <string name="label_read_tips">请允许应用读取文件</string>
+    <string name="label_start_search">搜索</string>
+    <string name="label_stop_search">停止</string>
+    <string name="label_connecting_tips">正在连接设备</string>
+    <string name="label_device_info_tips">正在连接设备并获取设备信息,请稍候.</string>
+    <string name="label_device_info_over">获取设备信息完成.</string>
+    <string name="label_signal_dbm">%sdBm</string>
+
+    <string name="label_sensor">传感器</string>
+    <string name="label_heart_rate">心率</string>
+    <string name="label_push">推送消息</string>
+    <string name="label_console">LED灯控</string>
+    <string name="label_keyboard">键盘功能</string>
+    <string name="label_device">终端信息</string>
+    <string name="label_ota">OTA</string>
+    <string name="label_setting">修改设备信息</string>
+    <string name="label_4spaces">&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;</string>
+
+    <string name="label_connecting">正在连接设备</string>
+    <string name="label_connect_fail">连接失败</string>
+    <string name="label_unconnect_device">未连接设备</string>
+
+    <string name="lablel_call">来电提醒</string>
+    <string name="lablel_message">短信/微信提醒</string>
+    <string name="message_text">短信消息</string>
+    <string name="wechat_text">微信消息</string>
+
+    <string name="title_tips">Title</string>
+    <string name="message_tips">This is test message</string>
+    <string name="no_call_tips">无来电</string>
+    <string name="message_null_tips">内容不能为空</string>
+    <string name="title_null_tips">标题不能为空</string>
+    <string name="send_success_tips">发送成功</string>
+
+    <string name="start_resource_update">开始升级</string>
+    <string name="target_reboot">重启设备</string>
+
+    <string name="hues">色&#12288;调</string>
+    <string name="saturation">饱和度</string>
+    <string name="brightness">亮&#12288;度</string>
+    <string name="colorTemperature">色&#12288;温</string>
+    <string name="lightEffect">样&#12288;式</string>
+    <string name="speed">速&#12288;度</string>
+
+    <string name="hsiTitle">彩&#12288;光</string>
+    <!--    <string name="effectPeriod">周&#12288;期</string>-->
+    <string name="effectPeriod">速&#12288;度</string>
+    <string name="effectFreq">频&#12288;率</string>
+    <string name="effectTimes">重&#12288;复</string>
+    <string name="cctTitle">冷暖光</string>
+    <string name="title_activity_l_e_d_control">LEDControlActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_led_new">LedNewActivity</string>
+    <string name="tab_text_1">彩&#12288;光</string>
+    <string name="tab_text_2">冷暖光</string>
+    <string name="color_ctrl">灯&#12288;光</string>
+    <string name="effect_ctrl">特&#12288;效</string>
+    <string name="test_title">调&#12288;试</string>
+    <string name="btn_red_text">&#12288;红&#12288;光</string>
+    <string name="btn_green_text">&#12288;绿&#12288;光</string>
+    <string name="btn_blue_text">&#12288;蓝&#12288;光</string>
+    <string name="title_activity_achilles">AchillesActivity</string>
+    <string name="disconnected_info">未连接</string>
+    <string name="connected_info">已连接</string>
+    <string name="connecting_info">正在连接</string>
+    <string name="flash_mode">闪烁模式</string>
+    <string name="gradual_mode">渐变模式</string>
+    <string name="service_title">服务列表</string>
+    <string name="receive_title">接收数据</string>
+    <string name="send_title">发送数据</string>
+    <string name="content_close">关 闭</string>
+    <string name="content_read">读 取</string>
+    <string name="content_write">发 送</string>
+    <string name="content_clear">清 除</string>
+
+    <string name="update_confirm">确 认</string>
+    <string name="update_cancel">取 消</string>
+    <string name="update_device_name">修改Device Name</string>
+    <string name="update_model_number">修改Model Number</string>
+    <string name="update_serial_number">修改Serial Number</string>
+    <string name="update_local_name">修改Local Name</string>
+    <string name="update_default_setting">恢复默认</string>
+    <string name="text_hex_info">Hex:0x</string>
+    <string name="text_ascii_info">ASCII:</string>
+
+    <string name="default_setting_text">&#12288;恢复出厂默认&#12288;</string>
+
+
+    <string name="set_text_concat">%1$s %2$s</string>
+    <string name="primary_service">Primary Service</string>
+    <string name="secondary_service">Secondary Service</string>
+    <string name="ota_starting">start...</string>
+    <string name="ota_finish">Update Success!</string>
+    <string name="ota_error">onError: %d</string>
+    <string name="ota_progress">onProcess: %f</string>
+
+    <!--    <string name="waiting_connect">已完成修改,请等待设备重启后自动连接.</string>-->
+    <string name="waiting_connect">&#12288;&#12288;修改指令已发送完成,待目标设备重启后会自动连接,并在当前页面更新显示.这个过程通常需要5~6秒,多个设备的话时间会更长一些.</string>
+    <string name="default_setting_info">&#12288;&#12288;按下确定键以后,已连接的设备中与当前页面匹配的设置项,都会恢复为出厂默认值,请确定是否需要继续?</string>
+    <string name="restore_files">&#12288;&#12288;是否需要恢复已被删除的OTA文件?</string>
+    <string name="hidden_files">&#12288;&#12288;是否需要恢复已被删除或隐藏的OTA文件?</string>
+    <string name="not_support">&#12288;&#12288;目标设备不支持修改设备功能!</string>
+    <string name="single_connect_info">&#12288;&#12288;使用OTA功能时,只能连接一个设备,请断开其它设备.</string>
+    <string name="warring_title">警 告</string>
+    <string name="error_title">错 误</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_search_device">UserSearchDeviceActivity</string>
+    <string name="title_activity_device_info">DeviceInfoActivity</string>
+    <string name="title_activity_user_ota">UserOtaActivity</string>
+
+
+</resources>

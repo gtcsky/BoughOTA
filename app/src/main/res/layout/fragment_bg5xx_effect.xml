@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2b2b2b"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_7"
+        android:layout_marginTop="@dimen/size_dp_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_dp_3"
+            android:text="@string/hues"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/new_hues_seekbar"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            app:isb_indicator_color="@android:color/holo_red_light"
+            app:isb_indicator_text_size="@dimen/text_size_sp_16"
+            app:isb_indicator_type="rectangle"
+            app:isb_max="360"
+            app:isb_min="0"
+            app:isb_show_indicator="false"
+            app:isb_thumb_color="@android:color/holo_red_light"
+            app:isb_thumb_width="@dimen/size_dp_15"
+            app:isb_track_progress_bar_color="@android:color/holo_red_light" />
+
+        <TextView
+            android:id="@+id/new_huesValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/size_dp_5"
+            android:gravity="center_vertical|left"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_7"
+        android:layout_marginTop="@dimen/size_dp_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_dp_3"
+            android:text="@string/saturation"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/new_saturation_seekbar"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            app:isb_indicator_color="@android:color/holo_green_light"
+            app:isb_indicator_text_size="@dimen/text_size_sp_16"
+            app:isb_indicator_type="rectangle"
+            app:isb_max="100"
+            app:isb_min="1"
+            app:isb_show_indicator="false"
+            app:isb_thumb_color="@android:color/holo_green_light"
+            app:isb_thumb_width="@dimen/size_dp_15"
+            app:isb_track_progress_bar_color="@android:color/holo_green_light" />
+
+        <TextView
+            android:id="@+id/new_saturationValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/size_dp_5"
+            android:gravity="center_vertical|left"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_7"
+        android:layout_marginTop="@dimen/size_dp_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_dp_3"
+            android:text="@string/brightness"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/new_brightness_seekbar"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            app:isb_indicator_color="@android:color/holo_blue_light"
+            app:isb_indicator_text_size="@dimen/text_size_sp_16"
+            app:isb_indicator_type="rectangle"
+            app:isb_max="100"
+            app:isb_min="1"
+            app:isb_show_indicator="false"
+            app:isb_thumb_color="@android:color/holo_blue_light"
+            app:isb_thumb_width="@dimen/size_dp_15"
+            app:isb_track_progress_bar_color="@android:color/holo_blue_light" />
+
+        <TextView
+            android:id="@+id/new_brightnessValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/size_dp_5"
+            android:gravity="center_vertical|left"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_dp_7"
+        android:layout_marginTop="@dimen/size_dp_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_dp_3"
+            android:text="@string/colorTemperature"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/new_colorTemperature_seekbar"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            app:isb_indicator_color="@android:color/holo_blue_light"
+            app:isb_indicator_text_size="@dimen/text_size_sp_16"
+            app:isb_indicator_type="rectangle"
+            app:isb_max="75"
+            app:isb_min="32"
+            app:isb_show_indicator="false"
+            app:isb_thumb_color="@android:color/holo_blue_light"
+            app:isb_thumb_width="@dimen/size_dp_15"
+            app:isb_track_progress_bar_color="@android:color/holo_blue_light" />
+
+        <TextView
+            android:id="@+id/new_cctValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/size_dp_5"
+            android:gravity="center_vertical|left"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_sp_16" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/hsiStyleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/size_dp_7"
+        android:layout_marginTop="@dimen/size_dp_30">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/effectTimes"
+            android:textSize="@dimen/text_size_sp_16"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/size_dp_3"/>
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/repeat_seekbar"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            app:isb_indicator_type="rectangle"
+            app:isb_indicator_text_size="@dimen/text_size_sp_16"
+            app:isb_tick_num="1"
+            app:isb_thumb_width="@dimen/size_dp_15"
+            app:isb_max="100"
+            app:isb_min="1"
+            app:isb_show_indicator="false"
+            app:isb_indicator_color="@android:color/holo_blue_light"
+            app:isb_thumb_color="@android:color/holo_blue_light"
+            app:isb_track_progress_bar_color="@android:color/holo_blue_light"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/new_repeatValue"
+            android:textSize="@dimen/text_size_sp_16"
+            android:layout_marginRight="@dimen/size_dp_5"
+            android:gravity="center_vertical|left"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/speedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/size_dp_7"
+        android:layout_marginTop="@dimen/size_dp_30">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/effectPeriod"
+            android:textSize="@dimen/text_size_sp_16"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/size_dp_3"/>
+        <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/speed_seekbar"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            app:isb_indicator_type="rectangle"
+            app:isb_indicator_text_size="@dimen/text_size_sp_16"
+            app:isb_thumb_width="@dimen/size_dp_15"
+            app:isb_max="20"
+            app:isb_min="1"
+            app:isb_show_indicator="false"
+            app:isb_indicator_color="@android:color/holo_blue_light"
+            app:isb_thumb_color="@android:color/holo_blue_light"
+            app:isb_track_progress_bar_color="@android:color/holo_blue_light"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/new_speedValue"
+            android:textSize="@dimen/text_size_sp_16"
+            android:layout_marginRight="@dimen/size_dp_5"
+            android:gravity="center_vertical|left"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="@dimen/size_dp_60"
+        android:layout_height="@dimen/size_dp_60"
+        android:background="@drawable/toggle_effect_mode"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_dp_20"
+        android:textOn=""
+        android:textOff=""
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:onClick="left"
+            android:paddingLeft="29dp"
+            android:paddingRight="24dp"
+            android:src="@mipmap/ic_arrow_left" />
+
+        <com.phy.app.views.SelectorView
+            android:id="@+id/selector"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_dp_150"
+            android:layout_weight="1"
+            app:space="10dp">
+
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_dp_50"
+                android:background="@drawable/bg_btn_blue_selector"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@drawable/category_radiobutton_text_selector_newcar" />
+
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_dp_50"
+                android:background="@drawable/bg_btn_blue_selector"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@drawable/category_radiobutton_text_selector_newcar" />
+
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_dp_50"
+                android:background="@drawable/bg_btn_blue_selector"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@drawable/category_radiobutton_text_selector_newcar" />
+
+            <CheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_dp_50"
+                android:background="@drawable/bg_btn_blue_selector"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@drawable/category_radiobutton_text_selector_newcar" />
+
+        </com.phy.app.views.SelectorView>
+
+        <ImageView
+            android:id="@+id/select_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:onClick="right"
+            android:paddingLeft="24dp"
+            android:paddingRight="29dp"
+            android:src="@mipmap/ic_arrow_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/size_dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/power_switch"
+            android:textOff=""
+            android:textOn=""
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_60"
+            android:checked="true"
+            android:background="@drawable/toggle_power_switch">
+        </ToggleButton>
+    </LinearLayout>
+
+</LinearLayout>

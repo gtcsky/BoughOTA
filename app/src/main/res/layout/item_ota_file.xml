@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ota_file_grid"
+    android:layout_height="wrap_content">
+    <TextView
+        android:paddingLeft="@dimen/size_dp_20"
+        android:paddingTop="@dimen/size_dp_10"
+        android:textSize="20sp"
+        android:id="@+id/id_version"
+        android:textColor="@color/green_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:paddingLeft="@dimen/size_dp_20"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/id_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>

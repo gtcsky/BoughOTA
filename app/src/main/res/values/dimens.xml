@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_dp_1">1dp</dimen>
+    <dimen name="size_dp_3">3dp</dimen>
+    <dimen name="size_dp_5">5dp</dimen>
+    <dimen name="size_dp_7">7dp</dimen>
+    <dimen name="size_dp_10">10dp</dimen>
+    <dimen name="size_dp_15">15dp</dimen>
+    <dimen name="size_dp_20">20dp</dimen>
+    <dimen name="size_dp_25">25dp</dimen>
+    <dimen name="size_dp_30">30dp</dimen>
+    <dimen name="size_dp_35">35dp</dimen>
+    <dimen name="size_dp_40">40dp</dimen>
+    <dimen name="size_dp_45">45dp</dimen>
+    <dimen name="size_dp_50">50dp</dimen>
+    <dimen name="size_dp_60">60dp</dimen>
+    <dimen name="size_dp_70">70dp</dimen>
+    <dimen name="size_dp_80">80dp</dimen>
+    <dimen name="size_dp_83">83dp</dimen>
+    <dimen name="size_dp_90">90dp</dimen>
+    <dimen name="size_dp_100">100dp</dimen>
+    <dimen name="size_dp_110">110dp</dimen>
+    <dimen name="size_dp_120">120dp</dimen>
+    <dimen name="size_dp_130">130dp</dimen>
+    <dimen name="size_dp_140">140dp</dimen>
+    <dimen name="size_dp_150">150dp</dimen>
+    <dimen name="size_dp_155">155dp</dimen>
+    <dimen name="size_dp_160">160dp</dimen>
+    <dimen name="size_dp_170">170dp</dimen>
+    <dimen name="size_dp_180">180dp</dimen>
+    <dimen name="size_dp_190">190dp</dimen>
+    <dimen name="size_dp_200">200dp</dimen>
+    <dimen name="size_dp_210">210dp</dimen>
+    <dimen name="size_dp_220">220dp</dimen>
+    <dimen name="size_dp_230">230dp</dimen>
+    <dimen name="size_dp_240">240dp</dimen>
+    <dimen name="size_dp_250">250dp</dimen>
+    <dimen name="size_seek_bar">291dp</dimen>
+    <dimen name="size_button_gap">205dp</dimen>
+    <dimen name="size_dp_300">300dp</dimen>
+    <dimen name="size_dp_310">310dp</dimen>
+
+    <dimen name="text_size_sp_12">12sp</dimen>
+    <dimen name="text_size_sp_14">14sp</dimen>
+    <dimen name="text_size_sp_16">16sp</dimen>
+    <dimen name="text_size_sp_18">18sp</dimen>
+    <dimen name="text_size_sp_20">20sp</dimen>
+    <dimen name="text_size_sp_45">45sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+</resources>

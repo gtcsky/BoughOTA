@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+
+android {
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId 'com.bough.app.release'
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 21
+        versionName '3.7.1'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        releaseConfig {
+            keyAlias 'bough'
+            keyPassword 'Bough2016'
+
+            storeFile file('bough.keystore')
+            storePassword 'Bough2016'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.releaseConfig
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+        applicationVariants.all { variant ->
+            variant.outputs.each { output ->
+                if (!variant.buildType.isDebuggable()) {
+                    //获取签名的名字 variant.signingConfig.name
+                    //替换的字符串
+                    def replaceFile = "BoughOTA_${variant.versionName}.apk"
+                    output.outputFileName = replaceFile
+                }
+            }
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'   // aar目录
+    }
+}
+
+dependencies {
+//    implementation 'androidx.appcompat:appcompat:1.2.0'
+
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation ('androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0') {
+        exclude module: 'support-v4'
+        exclude group: 'com.android.support'
+    }
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'pub.devrel:easypermissions:1.0.1'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.github.warkiz.widget:indicatorseekbar:1.2.9'
+    implementation files('libs/achartengine-1.2.0.jar')
+    compile 'no.nordicsemi.android.support.v18:scanner:1.0.0'
+
+    compile(name: 'phy_ota_sdk-1.0.7', ext: 'aar')
+
+
+}

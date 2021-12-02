@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_3c3f41"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_title_layout" />
+
+
+    <LinearLayout
+        android:id="@+id/device_name_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/size_dp_20"
+        android:layout_height="@dimen/size_dp_30"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/update_device_name"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_hex_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/device_name_hex"
+            android:maxLength="50"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_device_name_hex"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_ascii_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/device_name_ascii"
+            android:textColor="@color/white"
+            android:maxLength="16"/>
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_device_name_ascii"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/model_number_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/size_dp_20"
+        android:layout_height="@dimen/size_dp_30"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/update_model_number"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_hex_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/model_number_hex"
+            android:textColor="@color/white"
+            android:maxLength="20"/>
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_model_number_hex"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_ascii_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/model_number_ascii"
+            android:textColor="@color/white"
+            android:maxLength="7"/>
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_model_number_ascii"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/serial_number_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/size_dp_20"
+        android:layout_height="@dimen/size_dp_30"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/update_serial_number"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_hex_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/serial_number_hex"
+            android:textColor="@color/white"
+            android:maxLength="23"/>
+
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_serial_number_hex"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_ascii_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/serial_number_ascii"
+            android:textColor="@color/white"
+            android:maxLength="8"/>
+
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_serial_number_ascii"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/local_name_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/size_dp_20"
+        android:layout_height="@dimen/size_dp_30"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/update_local_name"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_hex_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/local_name_hex"
+            android:textColor="@color/white"
+            android:maxLength="50"/>
+
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_local_name_hex"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/size_dp_50"
+            android:layout_height="match_parent"
+            android:text="@string/text_ascii_info"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="@dimen/size_dp_250"
+            android:layout_height="match_parent"
+            android:shadowColor="@color/yellow_600"
+            android:theme="@style/MyEditText"
+            android:id="@+id/local_name_ascii"
+            android:textColor="@color/white"
+            android:maxLength="16"/>
+
+        <Button
+            android:layout_width="@dimen/size_dp_60"
+            android:layout_height="@dimen/size_dp_25"
+            android:id="@+id/btn_local_name_ascii"
+            android:text="@string/update_confirm"
+            android:background="@color/purple_200"
+            android:layout_marginLeft="@dimen/size_dp_5"
+            android:layout_marginBottom="@dimen/size_dp_1"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_dp_40"
+        android:layout_marginLeft="@dimen/size_dp_20"
+        android:layout_marginTop="@dimen/size_dp_20"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:text="@string/default_setting_text"
+            android:id="@+id/btn_default_setting"
+            android:background="@color/purple_200"/>
+    </RelativeLayout>
+
+</LinearLayout>
